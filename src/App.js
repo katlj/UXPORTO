@@ -3,10 +3,13 @@ import React from "react";
 import Headshot from "./Images/Headshot.jpeg";
 import DownArrow from "./Images/DownArrow.png";
 import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Project from "./Project.js";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Button from 'react-bootstrap/Button';
+import LetsConnect from "./LetsConnect.js";
 
 
 export default function App() {
@@ -38,10 +41,22 @@ export default function App() {
      
      <img src={DownArrow} alt="Move down"></img>
      </div>
-    <div className="Projects">My Projects</div>
-    <Project/>
-    <div className="Socials">Let's Connect!</div>
-    
+    <div className="Projects">My Projects
+    <Container>
+      <Row>
+        <Col> 1/3<Project></Project></Col>
+        <Col>2/3<Project></Project></Col>
+        <Col>3/3<Project></Project></Col>
+      </Row>
+      <Row>
+        <Col>1<Project></Project></Col>
+        <Col>2<Project></Project></Col>
+        <Col>3<Project></Project></Col>
+      </Row>
+    </Container>
+</div>
+    <div className="Socials">Let's Connect!
+    <LetsConnect></LetsConnect></div>
     </div>
     </>
   );
