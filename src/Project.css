@@ -3,3 +3,8 @@ body{
 
    
 }
+img{
+    width: 100%;
+    background-color:#52796F;
+    background: none;
+}

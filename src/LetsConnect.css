@@ -1,0 +1,19 @@
+.scbuttons{
+   mix-blend-mode: multiply;
+background: none;
+
+}
+
+
+
+#Linkedin{
+width: 100%;
+height: auto;
+}
+#github{
+width: 100%;
+align-items: center;
+}
+#email img{
+    width: 100%;
+}
