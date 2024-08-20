@@ -1,19 +1,24 @@
 .scbuttons{
    mix-blend-mode: multiply;
 background: none;
+margin-top: 30px;
 
+}
+.scbuttons img{
+width: 60%;
 }
 
 
+#Linkedin img{
+}
 
-#Linkedin{
-width: 100%;
-height: auto;
+#github img{
+   width: 80%;
 }
-#github{
-width: 100%;
-align-items: center;
+#mail img{
+
+   width: 70%;
 }
-#email img{
-    width: 100%;
+div #Linkedin.col{
+    
 }
